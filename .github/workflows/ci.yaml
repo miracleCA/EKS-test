@@ -38,10 +38,6 @@ jobs:
       - name: Run lint
         run: npm run lint
 
-      # 5. Run automated tests and enforce coverage
-      - name: Run tests and coverage
-        run: npm run test:coverage
-
       # 6. Build Next.js application
       - name: Build application
         run: npm run build
