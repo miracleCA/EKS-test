@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: web-app
-          image: IMAGE_PLACEHOLDER
+          image: 345470069058.dkr.ecr.eu-north-1.amazonaws.com/next-js-test:fcf777d02a9a12d42f4cfce26d0e705e8a338e3c
           imagePullPolicy: Always
 
           ports:
