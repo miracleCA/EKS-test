@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/miracleCA/EKS-test.git
     targetRevision: main
-    path: k8s
+    path: kubernetes
 
   destination:
     server: https://kubernetes.default.svc
